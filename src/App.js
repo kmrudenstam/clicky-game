@@ -11,7 +11,6 @@ class App extends Component {
     selected: [],
     topScore: 0,
     currentScore: 0
-
   };
 
   updateFriend = name => {
@@ -66,7 +65,7 @@ class App extends Component {
         ))}
       </Wrapper>
     );
-  }
+  };
 }
 
 export default App;
